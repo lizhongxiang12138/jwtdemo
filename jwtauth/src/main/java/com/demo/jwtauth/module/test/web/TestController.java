@@ -1,8 +1,8 @@
 package com.demo.jwtauth.module.test.web;
 
-import com.demo.jwtauth.annotation.NeedApi;
-import com.demo.jwtauth.module.auth.constant.PermissionConstant;
-import com.demo.jwtauth.module.auth.utils.JwtUtil;
+import com.demo.jwtsecurity.annotation.NeedApi;
+import com.demo.jwtsecurity.module.auth.constant.PermissionConstant;
+import com.demo.jwtsecurity.module.auth.utils.JwtUtil;
 import com.demo.jwtauth.module.test.vo.ParseJWTVO;
 import io.jsonwebtoken.Claims;
 import io.swagger.annotations.Api;

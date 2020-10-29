@@ -1,10 +1,10 @@
 package com.demo.jwtauth.module.auth.web;
 
-import com.demo.jwtauth.annotation.AnonymousAccess;
-import com.demo.jwtauth.annotation.NeedApi;
-import com.demo.jwtauth.module.auth.dto.AuthDTO;
-import com.demo.jwtauth.module.auth.dto.LoginDTO;
-import com.demo.jwtauth.module.auth.service.AuthService;
+import com.demo.jwtsecurity.annotation.AnonymousAccess;
+import com.demo.jwtsecurity.annotation.NeedApi;
+import com.demo.jwtsecurity.module.auth.dto.AuthDTO;
+import com.demo.jwtsecurity.module.auth.dto.LoginDTO;
+import com.demo.jwtsecurity.module.auth.service.AuthService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.stereotype.Controller;
